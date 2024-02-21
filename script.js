@@ -7,7 +7,7 @@ const umur = prompt("Masukkan Umur Anda!"); //Membuat Input Umur
 let Studio; //Variabel baru
 
 if (umur >= 13) { //Perbandingan jika Umur lebih atau sama dengan 13
-    Studio = prompt("Pilih Studio A, B, atau C"); //Input pilihan Studio
+    Studio = prompt("Pilih Studio (A, B, atau C)"); //Input pilihan Studio
     if (Studio == "A") { //Jika Studio A
         alert(`Tiket ${nama}, Studio A, Umur ${umur}`);
     } else if (Studio == "B"){ //Jika Studio B
